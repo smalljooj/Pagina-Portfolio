@@ -27,7 +27,7 @@
 						Web Developer & Front End Designer
 					</h1>
 					<p>Ismael Marinho Rocha</p>
-					<button>Saiba mais</button>
+					<button class="btn">Saiba mais</button>
 				</div>
 			</header>
 
@@ -157,7 +157,7 @@
 								consectetur id dapibus id, luctus vel velit. Fusce hendrerit cursus rhoncus.
 								Vivamus ullamcorper ullamcorper orci
 							</p>
-							<button>Saiba mais</button>
+							<button class="btn">Saiba mais</button>
 						</div>
 					</div>
 					<div class="card">
@@ -171,7 +171,7 @@
 								consectetur id dapibus id, luctus vel velit. Fusce hendrerit cursus rhoncus.
 								Vivamus ullamcorper ullamcorper orci
 							</p>
-							<button>Saiba mais</button>
+							<button class="btn">Saiba mais</button>
 						</div>
 					</div>
 					<div class="card">
@@ -185,11 +185,59 @@
 								consectetur id dapibus id, luctus vel velit. Fusce hendrerit cursus rhoncus.
 								Vivamus ullamcorper ullamcorper orci
 							</p>
-							<button>Saiba Mais</button>
+							<button class="btn">Saiba Mais</button>
 						</div>
 					</div>
 				</div>
+			</section>
+			<section class="sessao-contato">
+				<div class="contato-wrapper">
+					<div class="contato-left"> </div>
+					<div class="contato-right">
+						<h1>Contato</h1>
+						<form>
+							<div class="input-group">
+								<input type="text" name="nome" id="nome" class="field"/ required>
+								<label class="field-label" for="nome">Nome</label>
+							</div>
+							<div class="input-group">
+								<input type="text" name="email" id="email" class="field"/ required>
+								<label class="field-label" for="email">E-mail</label>
+							</div>
+							<div class="input-group">
+								<textarea class="field" id="mensagem" required></textarea>
+								<label class="field-label" for="mensagem">Mensagem</label>
+							</div>
+							<button type="submit" class="btn btn-submit">Enviar</button>
+						</form>
+					</div>
+				</div>
+			</section>
 
+			<section class="sessao-orcamento">
+				<div class="orcamento-wrapper">
+					<h1>Faca um orçamento</h1>
+					<form>
+						<label for="qtde">Qtde de páginas</label>
+						<input type="number" min="1" name="qtde" id="qtde"/ required>
+						<label for="js">Preciso de um script JS</label>
+						<input type="checkbox" name="js" id="js">
+						<label>Layout</label>
+						<div class="group-layout">
+							<div>
+								<input type="radio" name="layout" id="layout-sim">
+								<label for="layout-sim">Preciso de um layout</label>
+							</div>
+							<div>
+								<input type="radio" name="layout" id="layout-nao">
+								<label for="layout-nao">Não preciso de um layout</label>
+							</div>
+						</div>
+						<label for="prazo">Prazo</label>
+						<input type="range" name="prazo" id="prazo">
+						<button class="btn btn-orcamento" type="submit">Enviar</button>
+					</form>
+				</div>
 			</section>
 
 		</div>
